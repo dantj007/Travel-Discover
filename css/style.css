@@ -4,8 +4,13 @@
     font-family: 'Montserrat';
 }
 
+.global{
+    align-items: center;
+
+}
+
 .banner{
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100vh;
     background-image: url("/assets/img/backgroundTravel.png");
@@ -14,45 +19,227 @@
 
 }
 
-.banner .nav{
+.banner nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
     width: 85%;
     margin: auto;
-    padding: 35px 0;
-    
+    padding: 35px 0;  
 }
 
-.nav .ul .li{
+h1{
+    position:relative;
+    color:white;
+
+}
+
+nav ul li{
     list-style: none;
-    display: inline-block;
     margin: 0 20px;
     position: relative;
 }
 
+nav ul{
+    display:flex;
+}
+
 
 .banner h1{
-    text-align: center;
-    
+    text-align: center;    
     
 }
+
 
 
 .fountain{
-    position: absolute;
-    width: ;
-    height: ;
+    position: block;
+    /* width: 0;
+    height: 0; */
+    display: flex;
     left: 0px;
     top: 1145px;
     padding-right: 10;
-    
+    padding-top:30px;    
 }
 
-.fountain .h2{
+.fountain hr{
+    width: 20px;
+    padding-bottom: 30px;
+    height: 20PX;
+}
+
+.fountain h2{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 44px;
+    padding-bottom: 20px;
     color: #EBC154;
+}
+
+.fountain p{
+    font-style: light;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+
+.fountain .fountainpix img{
+    position: left;
+    padding-right: 30px;
+    
+}
+
+
+
+.faq h1{
+    font-style: bold;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+    color: #3A3A3A;
+    padding-bottom: 20px;
+}
+
+.faq p{
+    font-style: light;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+
+.mountain{
+    position: block;
+    /* width: 0;
+    height: 0; */
+    display: flex;
+    left: 0px;
+    top: 1145px;
+    padding-right: 10;
+    padding-top:30px;    
+}
+
+/* .mountain hr{
+    width: 20px;
+    padding-bottom: 30px;
+    height: 20PX;
+} */
+
+.mountain h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20px;
+    color: #EBC154;
+}
+
+.mountain p{
+    font-style: light;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+}
+
+.mountain .mountainpix img{
+    position: left;
+    padding-right: 30px;
+    
+}
+
+
+.hippo{
+    position: block;
+    /* width: 0;
+    height: 0; */
+    display: flex;
+    left: 0px;
+    top: 1145px;
+    padding-right: 10;
+    padding-top:30px;    
+}
+
+/* .fountain hr{
+    width: 20px;
+    padding-bottom: 30px;
+    height: 20PX;
+} */
+
+.hippo h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20px;
+    color: #EBC154;
+}
+
+.hippo p{
+    font-style: light;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+
+.hippo .hippopix img{
+    position: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+.footerA{
+    
+    align-content: center;
+    background-color:#3A3A3A;
+    padding: 10px;
+}
+
+.footerA footer h3{
+    font-style: normal;
+        
+    padding-bottom: 40px;
+    color:white;
+
+}
+
+.footerA .buttom{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;  
+}
+
+.footerA .bottom ul li{
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.footerA .buttom ul{
+    display:flex;
+}
+
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EBC154;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
